@@ -7,9 +7,9 @@
   "main": "./lib/index.js",
   "author": {
     "name": "Petr Brzek",
-    "email": "petr@avocode.com"
+    "email": "maximivanov818@gmail.com"
   },
-  "repository": "avocode/nachos-ui",
+  "repository": "Pianist038801/nachos-ui",
   "keywords": [
     "react",
     "react-component",
