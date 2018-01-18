@@ -65,7 +65,7 @@ const defaultStyle = (theme) => {
 }
 
 const Input = (props) => {
-  const { width } = props
+  const { width, iconColor } = props
   const theme = props.theme || themeManager.getStyle('Input')
   const height = props.height || theme.INPUT_HEIGHT
   const baseStyle = defaultStyle(theme)
@@ -79,7 +79,7 @@ const Input = (props) => {
       <Icon
         name={icon}
         size={theme.INPUT_ICON_SIZE}
-        color={statusColor}
+        color={iconColor}
         style={[baseStyle.icon]}
       />
     )
